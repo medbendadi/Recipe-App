@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Assets/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <script src="https://kit.fontawesome.com/398efa689c.js" crossorigin="anonymous"></script>
+   <title>CountDown App</title>
+</head>
+<body>
+   <div class="mobile_container">
+      <header>
+         <input type="text" placeholder="Recipe" onkeyup="bluSearch()"  id="search-term">
+         <button id="search">
+            <i class="fas fa-search"></i>
+         </button>
+      </header>
+      <div class="fav-container">
+         <h4>Favorite Meals</h4>
+         <ul class="fav-meals" id="fav-meals">
+         </ul>
+      </div>
+      <div class="meals" id="meals"></div>
+      <button class="genrate" id="genrate">Generate</button>
+   </div>
+   
+   <div class="meal-info-container" id="meal-info-container">
+      <div class="meal-info" id="meal-info">
+      </div>
+   </div>
+   
+
+
+
+
+
+   <script src="Assets/main.js"></script>
+   <!-- <script src="https://kit.fontawesome.com/398efa689c.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
